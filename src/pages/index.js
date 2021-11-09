@@ -1,4 +1,4 @@
-import * as React as "react"
+import * as React from "react"
 
 const Homepage = () => {
   return (
