@@ -1,13 +1,12 @@
 import * as React from "react"
+import { Link } from 'gatsby'
+import Layout from '../components/layout'
 
-const Homepage = () => {
+const HomePage = () => {
   return (
-    <main>
-    <title>Home Page</title>
-    <h1>Welcome to my Virtual Space!</h1>
-    <p>Miché Lozano's developer portfolio site</p>
-    </main>
-  )
+    <Layout pageHeading='Home' pageTitle='Home Page'> Welcome to my virtual space!
+    </Layout>
+      )
 }
 
-export default Homepage
+export default HomePage
