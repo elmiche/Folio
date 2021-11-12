@@ -8,7 +8,8 @@ const HomePage = () => {
     <p>Welcome to my virtual space</p>
     <p> This site contains some information about my work and my ambitions</p>
 
-    
+    <h2>Interveaving the natural world <br> 
+    </br>with the world wide web</h2>
 
     {/* <StaticImage
         alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
