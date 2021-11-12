@@ -15,6 +15,10 @@ const HomePage = () => {
         src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
       /> */}
     
+    <StaticImage 
+    src="../images/deerhead-peote-ceremony.jpg" 
+    alt="a deerhead mounted on a staff with intricate web design in antlers, decorated with blue bird feathers and peote cactus drawings"
+    />
     </Layout>
       )
 }
