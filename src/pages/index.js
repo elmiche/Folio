@@ -8,7 +8,7 @@ const HomePage = () => {
     <p>Welcome to my virtual space</p>
     <p> This site contains some information about my work and my ambitions</p>
 
-    <h2>Interveaving the natural world <br> 
+    <h2>Interweaving the natural world <br> 
     </br>with the world wide web</h2>
 
     {/* <StaticImage

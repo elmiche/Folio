@@ -12,8 +12,9 @@ const AboutPage = () => {
         src="../images/Miche-apple-orchard.jpg" 
         alt="Miche posing in beatuful green apple orchard"
         />
+        <h2>A Them in STEM</h2>
         <h3>Identity Intersections </h3> 
-        <p>I exist as a multi-cultural multi-faceted life form, self-identify as: 
+        <p>I exist as a multi-cultural, multi-faceted life form, I self-identify as: 
           <ul>
             <li>Two spirit, Transgender, Queer</li> 
             <li>an Indigenous, Latinx, First-generation immigrant</li>
@@ -23,12 +24,12 @@ const AboutPage = () => {
             </p>
             <br>
             </br>
-        <h2>Land Back</h2>
+        
         <StaticImage src="../images/land-and-sea.jpg" alt="a picture of the oregon coast"/>
 
-        <h2>Envrionmental stwardship </h2> 
-          <br></br>
-          <p>My work is grounded in declonization, anti-white supremacy, trauma-informed, queer-inclusive, class-conciousness & based in a human-centric approach, recognizing human beings as inherently interconnected to the environment.</p>
+        <h2>Envrionmental Stewardship through Indigenous Philosophy</h2> 
+          <h3>Land Back</h3>
+          <p>My work is grounded in declonization, anti-white supremacy, trauma-informed, queer-inclusive, and class-conciousness. My practice is based in an eco-centric environmentalism, recognizing human beings as inherently interconnected to the environment, not separate from it.</p>
 
         </Layout>
           )
