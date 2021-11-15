@@ -5,7 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 const HomePage = () => {
   return (
     <Layout pageHeading='The Cyborg Naturalist' pageTitle='Home Page'> 
-    <h2 class="font-sans">Interweaving the natural world <br> 
+    <h2>Interweaving the natural world <br> 
     </br>with the world wide web</h2>
     <StaticImage 
     src="../images/deerhead-peote-ceremony.jpg" 
