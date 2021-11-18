@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
+import './layout.css'
 import {
     container,
     heading,
@@ -11,26 +12,30 @@ import {
 const Layout = ({ pageTitle, pageHeading, children }) => {
   return (
     <div className={container}>
-      <title>{pageTitle}</title>
-      <nav>
-        <ul className={navLinks}>
-          <li className={navLinkItem}>
-              <Link to="/" className={navLinkText}>Home</Link></li>
-          <li className={navLinkItem}>
-              <Link to="/about" className={navLinkText}>About</Link></li>
-          <li className={navLinkItem}>
-              <Link to="/projects" className={navLinkText}>Projects</Link></li>
-          <li className={navLinkItem}>
-              <Link to="/offerings" className={navLinkText}>Offerings</Link></li>
-          <li className={navLinkItem}>
-              <Link to="/contact" className={navLinkText}>Contact</Link></li>
-        </ul>
-      </nav>
-      <main>
-        <h1 className={heading}>{pageHeading}</h1>
-        {children}
-      </main>
+      
+        <title>{pageTitle}</title>
+          <nav>
+            <ul className={navLinks}>
+              <li className={navLinkItem}>
+                  <Link to="/" className={navLinkText}>Home</Link></li>
+              <li className={navLinkItem}>
+                  <Link to="/about" className={navLinkText}>About</Link></li>
+              <li className={navLinkItem}>
+                  <Link to="/projects" className={navLinkText}>Projects</Link></li>
+              <li className={navLinkItem}>
+                  <Link to="/offerings" className={navLinkText}>Offerings</Link></li>
+              <li className={navLinkItem}>
+                  <Link to="/contact" className={navLinkText}>Contact</Link></li>
+            </ul>
+          </nav>
+
+        <main>
+          <h1 className={heading}>{pageHeading}</h1>
+          {children}
+        </main>
     </div>
+    
+
   )
 }
 
