@@ -5,7 +5,9 @@ import { StaticImage } from 'gatsby-plugin-image'
 const AboutPage = () => {
     return (
         <Layout pageHeading='A Cyborg, A Naturalist' pageTitle='About'> 
-        <p>Miché is working from the intersections of natural science and technology to build a better future for our planet and future generations.</p>
+        
+        <div className="container bg-white bg-opacit-90 mx-auto px-4 rounded-lg space-y-5">
+        <p className="pt-5"> Miché is working from the intersections of natural science and technology to build a better future for our planet and future generations.</p>
         <br></br>
         
         <StaticImage 
@@ -30,7 +32,7 @@ const AboutPage = () => {
         <h2>Envrionmental Stewardship through Indigenous Philosophy</h2> 
           <h3>Land Back</h3>
           <p>My work is grounded in declonization, anti-white supremacy, trauma-informed, queer-inclusive, and class-conciousness. My practice is based in an eco-centric environmentalism, recognizing human beings as inherently interconnected to the environment, not separate from it.</p>
-
+        </div>
         </Layout>
           )
 }
