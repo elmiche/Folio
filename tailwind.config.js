@@ -6,8 +6,6 @@ module.exports = {
   },
   variants: {
     extend: {
-      //..
-      objectFit: ['hover']
     },
   },
   plugins: [],
