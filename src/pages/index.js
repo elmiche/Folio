@@ -6,8 +6,9 @@ import { StaticImage } from 'gatsby-plugin-image'
 const HomePage = () => {
   return (
     <Layout pageHeading='The Cyborg Naturalist' pageTitle='Home Page'> 
-    
+      
     <div>
+          
     <Hero></Hero>
     
       <p className="text-center"> Welcome to my virtual space</p>
