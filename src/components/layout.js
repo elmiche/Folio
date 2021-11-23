@@ -13,23 +13,24 @@ const Layout = ({ pageTitle, pageHeading, children }) => {
     <div className="m-auto font-family-sans">
         <title>{pageTitle}</title>
           <nav>
-            <ul className={navLinks}>
-              <li className={navLinkItem}>
-                  <Link to="/" className={navLinkText}>Home</Link></li>
-              <li className={navLinkItem}>
-                  <Link to="/about" className={navLinkText}>About</Link></li>
-              <li className={navLinkItem}>
-                  <Link to="/projects" className={navLinkText}>Projects</Link></li>
-              <li className={navLinkItem}>
-                  <Link to="/offerings" className={navLinkText}>Offerings</Link></li>
-              <li className={navLinkItem}>
-                  <Link to="/contact" className={navLinkText}>Contact</Link></li>
+            <ul className="flex w-screen justify-center items-center text-center list-none pl-4">
+              <li className="pr-8 pt-4">
+                  <Link to="/" className="text-black">Home</Link></li>
+              <li className="pr-8 pt-4">
+                  <Link to="/about" className="text-black">About</Link></li>
+              <li className="pr-8 pt-4">
+                  <Link to="/projects" className="text-black">Projects</Link></li>
+              <li className="pr-8 pt-4">
+                  <Link to="/offerings" className="text-black">Offerings</Link></li>
+              <li className="pr-8 pt-4">
+                  <Link to="/contact" className="text-black">Contact</Link></li>
             </ul>
           </nav>
 
         <main>
-          <h1 className= "font-sans decoration-clone text-center text-4xl bg-gradient-to-r from-green-300 to-purple-400">The Cyborg Naturalist</h1>
-        
+          <div className= "text-5xl font-sans font-extrabold text-center py-4"> 
+              <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-purple-400">The Cyborg Naturalist</h1>
+          </div>
           {children}
         </main>
     </div>
