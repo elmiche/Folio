@@ -27,8 +27,9 @@ const Layout = ({ pageTitle, pageHeading, children }) => {
                   <Link to="/contact" className="text-black">Contact</Link></li>
             </ul>
           </nav>
-          <div className="text-5xl font-sans text-center py-4"> 
-              <h1 className="bg-clip-text text-white hover:text-blue-800 bg-gradient-to-r from-green-400 to-purple-400">The Cyborg Naturalist</h1>
+          <div className="text-5xl leading-normal font-sans text-center py-4"> 
+              <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-purple-400">The Cyborg Naturalist</h1>
+              
               {/* turned the text white to see, but TODO: make text clip the background gradient */}
           </div>
 
