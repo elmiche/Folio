@@ -6,7 +6,20 @@ import { StaticImage } from 'gatsby-plugin-image'
 const HomePage = () => {
   return (
     <Layout pageTitle='Home Page'> 
+    <section className="flex-auto">
+      <div className="text-5xl leading-normal font-serif text-center py-4 bg-gradient-to-b from-black to-green-900">  
+          <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-purple-400">The Cyborg Naturalist</h1>  
+      </div>
+
+      <div>
       
+      <StaticImage 
+        className="object-none max-h-screen md:w-auto"
+        src="../images/circuit_board_bg.jpg"
+        alt="a deerhead mounted on a staff with intricate web design in antlers, decorated with blue bird feathers and peote cactus drawings"
+        />
+      </div>  
+    </section>
     <div>  
     <Hero></Hero>
       <p className="text-center"> Welcome to my virtual space</p>
