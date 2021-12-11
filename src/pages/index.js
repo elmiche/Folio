@@ -15,9 +15,11 @@ const HomePage = () => {
       
       <StaticImage 
         className="object-none max-h-screen md:w-auto"
-        src="../images/circuit_board_bg.jpg"
-        alt="a deerhead mounted on a staff with intricate web design in antlers, decorated with blue bird feathers and peote cactus drawings"
-        />
+        src="../images/Cyborg_tree_Banner.png"
+        alt="a circular white logo of a half-oganic half cybernetic tree made up cicuitry superimposed on an image of a starry night over a forest lake "
+        /> 
+
+
       </div>  
     </section>
     <div>  
