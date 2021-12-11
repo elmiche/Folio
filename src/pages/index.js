@@ -7,8 +7,8 @@ const HomePage = () => {
   return (
     <Layout pageTitle='Home Page'> 
     <section className="flex-auto">
-      <div className="text-5xl leading-normal font-serif text-center py-4 bg-gradient-to-b from-black to-green-900">  
-          <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-purple-400">The Cyborg Naturalist</h1>  
+      <div className="text-5xl leading-normal font-serif text-center py-4 ">  
+          <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-purple-600">The Cyborg Naturalist</h1>  
       </div>
 
       <div>
