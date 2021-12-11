@@ -8,18 +8,23 @@ const Hero = ({ pageTitle, pageHeading, children }) => {
     <section className="container-md">
      
       <div class="flex grid-col-2 content-center">
-        <div class="w-1/2 text-center font-serif text-4xl pt-6">Miché Lozano
-          <figure>
+        <div class="w-1/2 text-center font-serif text-4xl py-40">Hello, my name is Miché
+          {/* <figure>
             <div class="pt-6 space-y-4">
               <p class="text-center text-sm">Write a brief introduction and offer some resources or links for the user to investigate further</p>
             </div>
-          </figure>
+          </figure> */}
+          <div class="text-lg">
+          <Link 
+          to="../pages/about.js"
+          src="...">About</Link>
+          </div>
         </div>
-        <div class="w-1/2 justify-center pt-6">
+        <div class="w-1/2 justify-center py-20 pl-10">
           <StaticImage 
-            className="object-none max-h-screen w-3/5"
+            className="object-none max-h-screen w-3/5 content-center"
             src="../images/Miche_mug.jpg" 
-            alt="a deerhead mounted on a staff with intricate web design in antlers, decorated with blue bird feathers and peote cactus drawings"
+            alt="a selfie of Miche infront of a yellow foliage"
             />
         </div>
       </div>
