@@ -8,14 +8,16 @@ const Hero = ({ pageTitle, pageHeading, children }) => {
     <section className="container-md">
      
       <div class="flex grid-col-2 content-center">
-        <div class="w-1/2 text-center font-serif text-4xl py-40">Hello, my name is Miché
+        <div class="w-1/2 text-center font-serif text-4xl py-20">Hello, my name is Miché
           {/* <figure>
             <div class="pt-6 space-y-4">
               <p class="text-center text-sm">Write a brief introduction and offer some resources or links for the user to investigate further</p>
             </div>
           </figure> */}
-          <div class="text-lg">
+          <div class="text-lg text-center py-20 ">
+          {/* TODO: Add Buttons links to CV Resume and ABOUT that actually work, with borders and styling */}
           <Link 
+          className="rounded-r-lg border-black"
           to="../pages/about.js"
           src="...">About</Link>
           </div>

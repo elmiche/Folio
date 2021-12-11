@@ -23,7 +23,7 @@ const HomePage = () => {
     <div>  
     <Hero></Hero>
       <p className="text-center p-6 text-xl font-serif"> I am a naturalist and a cyborg</p>
-      <p className="text-center"> A naturalist observes and studies the natural world and phenomenon <br></br> A cyborg is a human with technological enhancemes that allows them to perform beyond their human limitations.
+      <p className="text-center"> A naturalist observes and studies the natural world and phenomenon <br></br> A cyborg is a human with technological enhancements that allows them to perform beyond their human limitations.
       <br></br> As a Cyborg Naturalist, I use technology to enhance my aptitude as a naturalist and further my passion for nature conservation.</p>
       
     </div>
