@@ -7,7 +7,7 @@ const AboutPage = () => {
         <Layout pageHeading='A Cyborg, A Naturalist' pageTitle='About'> 
         
         <div className="container bg-white mx-auto px-4 space-y-5">
-        <h1 className="text-5xl pt-5 font-serif p-4 text-left"> As a Cyborg Naturalist, I use technology to enhance my aptitude as a naturalist and further my passion for nature conservation. Working from the intersections of natural science, technology, and organizing locally to build a resilient, more sustainable communities. Land stewardship that protects natural resources for present and future generations.</h1>
+        <h1 className="text-xl pt-5 font-serif text-center p-4"> As a Cyborg Naturalist, I use technology to enhance my aptitude as a naturalist and further my passion for nature conservation. <br></br> Working from the intersections of natural science, technology, and organizing locally to build a resilient, more sustainable communities. <br></br> Land stewardship that protects natural resources for present and future generations.</h1>
         <br></br>
        
         <StaticImage 
