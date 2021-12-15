@@ -6,28 +6,31 @@ const AboutPage = () => {
     return (
         <Layout pageHeading='A Cyborg, A Naturalist' pageTitle='About'> 
         
-        <div className="container bg-white bg-opacit-90 mx-auto px-4 rounded-lg space-y-5">
-        <p className="pt-5"> Miché is working from the intersections of natural science and technology to build a better future for our planet and future generations.</p>
+        <div className="container bg-white mx-auto px-4 space-y-5">
+        <h1 className="text-5xl pt-5 font-serif p-4 text-left"> As a Cyborg Naturalist, I use technology to enhance my aptitude as a naturalist and further my passion for nature conservation. Working from the intersections of natural science, technology, and organizing locally to build a resilient, more sustainable communities. Land stewardship that protects natural resources for present and future generations.</h1>
         <br></br>
-        
+       
         <StaticImage 
         src="../images/Miche-apple-orchard.jpg" 
         alt="Miche posing in beatuful green apple orchard"
         />
+       
         <h2>A Them in STEM</h2>
-        <h3>Identity Intersections </h3> 
-        <p>I exist as a multi-cultural, multi-faceted life form, I self-identify as: 
+        <h3 className="font-bold">Identity Intersections </h3> 
+        <p>
+          <h1 className="p-4">I self-identify as: </h1>
           <ul>
-            <li>Two spirit, Transgender, Queer</li> 
-            <li>an Indigenous, Latinx, First-generation immigrant</li>
-            <li>Stroyteller, facilitator, musician, creator</li>
-            <li>a scientist, a cyborg, and a naturalist </li>
+            <li>A Two-spirit, Transgender, Queer Mutant</li> 
+            <li>Indigenous Mexican, a First-generation Immigrant</li>
+            <li>Stroyteller, Visionary, Creator</li>
+            <li>A Scientist and a Cyborg Naturalist </li>
             </ul>
             </p>
             <br>
             </br>
         
-        <StaticImage src="../images/land-and-sea.jpg" alt="a picture of the oregon coast"/>
+        <StaticImage src="../images/land-and-sea.jpg" 
+        alt="a picture of the oregon coast"/>
 
         <h2>Envrionmental Stewardship through Indigenous Philosophy</h2> 
           <h3>Land Back</h3>
