@@ -13,10 +13,12 @@ const HomePage = () => {
 
       <div class="container mx-auto">
       <StaticImage 
-        className="object-none max-h-screen md:w-full content-center"
+        className="object-none md:w-full content-center"
         src="../images/Cyborg_tree_Banner.png"
         alt="a circular white logo of a half-oganic half cybernetic tree made up cicuitry superimposed on an image of a starry night over a forest lake "
         /> 
+      {/* add svg logo layered on top of a background image full bleed on wide screens */}
+      {/* max-h-screen allows full bleed for background image */}
       </div>  
     </section>
    
