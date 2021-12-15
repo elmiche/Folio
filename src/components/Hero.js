@@ -16,10 +16,9 @@ const Hero = ({ pageTitle, pageHeading, children }) => {
           </figure> */}
           <div class="text-lg text-center py-20 ">
           {/* TODO: Add Buttons links to CV Resume and ABOUT that actually work, with borders and styling */}
-          <Link 
-          className="rounded-r-lg border-black"
-          to="../pages/about.js"
-          src="...">About</Link>
+        <div className="rounded-r-lg border-black">  
+          <Link to="/about">About</Link>
+          </div>
           </div>
         </div>
         <div class="w-1/2 justify-center py-20 pl-10">

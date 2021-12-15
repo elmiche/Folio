@@ -11,7 +11,7 @@ const HomePage = () => {
           <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-purple-600">The Cyborg Naturalist</h1>  
       </div>
 
-      <div>
+      <div class="container mx-auto">
       <StaticImage 
         className="object-none max-h-screen md:w-full content-center"
         src="../images/Cyborg_tree_Banner.png"
@@ -29,7 +29,7 @@ const HomePage = () => {
     </div>
 
     <section>
-      <p>Yo what up</p>
+      <p>Add Posts section here </p>
     </section>
 
     </Layout>
