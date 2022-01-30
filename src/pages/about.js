@@ -14,6 +14,11 @@ const AboutPage = () => {
         src="../images/Miche-apple-orchard.jpg" 
         alt="Miche posing in beatuful green apple orchard"
         />
+        <StaticImage 
+            className="object-none w-3/5 h-full content-center"
+            src="../images/Miche_mug.jpg" 
+            alt="a selfie of Miche infront of a yellow foliage"
+            />
        
         <h2>A Them in STEM</h2>
         <h3 className="font-bold">Identity Intersections </h3> 
