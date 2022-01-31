@@ -1,3 +1,4 @@
+import { Container } from "postcss"
 import * as React from "react"
 import Layout from '../components/layout'
 
@@ -7,7 +8,8 @@ const ProjectsPage = () => {
   
   
 
-  {/* <br></br>
+  <br></br>
+  {/* <div class="container mx-auto ">
   <h2>Environmental Restoration</h2>
    
         <li> Endangered Tortoise Enclosure </li>
@@ -28,14 +30,15 @@ const ProjectsPage = () => {
       <li>Street Biter - Urban Forager's Friend</li>
       <li>Data Quality Analysis - Non-profit data clean up</li>
       <li> Tarot Night - Online tarot card spreads</li>
- */}
+    </div> */}
 
 {/* Why isn't the rounded borders working? */}
 <div class="container mx-auto p-4 lg:grid-cols-6 sm:grid-cols-1 grid grid-cols-1 gap-4 text-center">
   <div class="col-span-1 col-start-2 col-end-6 rounded-lg text-lg">
-    <h1 className="font-bold text-xl p-4">Expertise, Knowledge, and Experiences I proudly bring to the table</h1>
+    {/* <h1 className="font-bold text-xl p-4">Expertise, Knowledge, and Experiences I proudly bring to the table</h1> */}
     <p className="text-3xl p-4 font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-purple-600">Leadership</p>
-    <p className="text-left p-y-4"> &nbsp; &nbsp; I have a unique multi-disciplinary background, as a skilled technician with an extensive background in community organizing, and deep interests in natural science, technology, decolonization, and the creative arts. My commitment to social and environmental justice is at the heart of my work; which spans across the technology, conservation, and non-profit sectors. I practice uplifting communities through mutual aid, advocacy, direct actions, and leadership. I’ve spent nearly a decade as a volunteer, providing underserved communities with resources and opportunities, while to building resilience and environmental literacy in my communities. </p>
+    <p className="text-left p-y-4"> &nbsp; &nbsp; I have a unique multi-disciplinary background, as a skilled technician with an extensive background in community organizer, and deep interests in natural science, technology, intersectional feminism, indigenous cosmology & philosophy, and the creative arts. My commitment to social and environmental justice is at the heart of my work; which spans across the technology, conservation, and non-profit sectors. I practice uplifting communities through mutual aid, advocacy, direct actions, and leadership. I’ve spent nearly a decade volunteering to provide resources and opportunities to underserved communities and protect my environment. 
+ </p>
   </div>
   <div class="col-span-1 col-start-2 sm:grid-cols-1 col-end-4">
     <p className="text-3xl p-4 font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-purple-600">Environmental Science</p>
@@ -68,6 +71,19 @@ const ProjectsPage = () => {
     Where the state fails to provide these services, community steps in to support the most vulnerable and protect our natural resources.
  </p>
   </div>
+
+  <div class="col-span-1 sm:grid-cols-1 col-start-2 col-end-6">
+    <p className="text-3xl p-4 font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-purple-600"> Art & <br></br> Creation</p>
+    <p className="text-left p-y-4"> 
+    
+
+    Yuma, Arizona - BIRDING BORDERLANDS Photo project documenting wildlife along the Border Wall, while providing Refugee Support and Environmental clean up. 
+    Two birds with one stone. 
+
+
+ </p>
+  </div>
+
 </div>
   
   
